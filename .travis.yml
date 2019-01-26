@@ -3,7 +3,7 @@ language: bash
 
 before_install:
     - sudo apt-get -qq update
-    - sudo apt-get install -y xelatex
+    - sudo apt-get install -y texlive-xetex
 
 script:
       - bash build.sh
