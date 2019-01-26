@@ -7,6 +7,3 @@ before_install:
 
 script:
       - bash build.sh
-
-notifications:
-    webhooks: https://discordapp.com/api/webhooks/538784043446042674/RWV9SSf9GSniwV4OJn9UeB87quitWvcK3HREMRgmFEx0ZA3Hkd4_cjMQz6jY7G7fdYO2
