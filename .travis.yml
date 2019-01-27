@@ -17,3 +17,10 @@ after_failure:
     - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
     - chmod +x send.sh
     - ./send.sh failure $WEBHOOK_URL
+
+deploy:
+    provider: releases
+    api_key: $GITHUB_OAUTH_TOKEN
+    file: "main/henriette_jidouard_milis_2018_19_MEMOIRE MEEF.pdf"
+    skip_cleanup: true
+    draft: true
