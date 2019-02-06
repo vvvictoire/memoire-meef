@@ -8,6 +8,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{lastpage}
 \RequirePackage{graphicx}
+\RequirePackage{lipsum}
 \RequirePackage[titletoc,title]{appendix}
 
 % Change margins
