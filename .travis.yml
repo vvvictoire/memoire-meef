@@ -23,4 +23,4 @@ deploy:
     api_key: $GITHUB_OAUTH_TOKEN
     file: "main/henriette_jidouard_milis_2018_19_MEMOIRE MEEF.pdf"
     skip_cleanup: true
-    draft: true
+    draft: false
