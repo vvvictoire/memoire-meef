@@ -3,7 +3,7 @@ language: bash
 
 before_install:
     - sudo apt-get -qq update
-    - sudo apt-get install -y texlive-xetex texlive-lang-french texlive-latex-extra latexmk
+    - sudo apt-get install -y texlive-xetex texlive-lang-french texlive-latex-extra latexmk texlive-fonts-recommended
 
 script:
     - bash build.sh
