@@ -8,5 +8,8 @@ cd $FOLDER
 # build pdf from source
 latexmk -gg -xelatex "$FILE.tex"
 
+cd ../beamer
+latexmk -gg -xelatex slides.tex
+
 # exit successfully if pdf is present or with error if not present
 [ -f "$FILE.pdf" ] && exit 0 || exit 1

@@ -33,6 +33,6 @@ before_deploy:
 deploy:
     provider: releases
     api_key: $GITHUB_OAUTH_TOKEN
-    file: "main/henriette_jidouard_milis_2018_19_MEMOIRE MEEF.pdf"
+    file: "main/henriette_jidouard_milis_2018_19_MEMOIRE MEEF.pdf beamer/slides.pdf"
     skip_cleanup: true
     draft: false
