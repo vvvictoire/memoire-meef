@@ -1,4 +1,4 @@
-\ProvidesClass{memoire}[2019/01/26 Class for lessons]
+\ProvidesClass{memoire}[2019/01/26 Class for a memoire]
 
 \LoadClass[12pt, twoside]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
