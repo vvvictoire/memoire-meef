@@ -11,6 +11,7 @@
 \RequirePackage{lipsum}
 \RequirePackage[titletoc,title]{appendix}
 \RequirePackage{hyperref}
+\RequirePackage{xcolor} %highlight notes
 
 % Change margins
 \RequirePackage[a4paper, top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
