@@ -16,6 +16,9 @@
 % Change margins
 \RequirePackage[a4paper, top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
 
+%Subfigure (2 images côte à côte)
+\RequirePackage{subfigure}
+
 % Maths symbols
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
