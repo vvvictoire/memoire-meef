@@ -1,14 +1,52 @@
 \documentclass{memoire}
 \begin{document}
 \renewcommand{\bibsection}{\section*{Bibliographie}}
-% Titre et premières pages
+
+% ORGANISATION GENERALE
+% Le mémoire comprend une partie principale de synthèse, nécessairement courte, complétée par un dossier d’analyses détaillées. 
+% Rédiger la synthèse vous conduit à mettre en cohérence vos études et travaux, et à rendre accessible au jury, sous un format clair et rapidement lisible, l’essentiel de votre travail. 
+% Les analyses détaillées sont un récapitulatif de vos travaux : études, comptes-rendus, expérimentations et lectures faites en cours d’année.
+
+% PARTIE SYNTHESE
+% Son introduction résume de manière succincte l'origine du questionnement initial et explique le titre du mémoire. Elle introduit et justifie le plan du mémoire, en indiquant bien dans quelle partie la problématique est définie et justifiée. Dans le cas d’un mémoire préparé à deux ou à trois, elle explicite par ailleurs comment vous avez collaboré pour rédiger le mémoire à plusieurs (synthèse et analyses). 
+% La synthèse doit comprendre une partie de définition et une justification de la problématique, qui s'appuie sur une synthèse argumentée de ce qui vous y a conduit: vos lectures d'une part, et d'autre part certaines de vos observations ou expérimentations.
+% Elle décrit et justifie également le corpus permettant de répondre à la problématique ou de la faire évoluer: entretiens, analyses de documents (manuels, copies, …), observations, construction de séances / séquences, expérimentations en classe, notes de lecture.
+% Elle aboutit à un résumé de vos principales conclusions et propose des perspectives pour développer le travail engagé, en termes de nouvelles lectures, de poursuite d'étude (formations, diplômes certifications envisagées..) ou de valorisation de votre travail.
+% Elle inclut une bibli- et sitographie aux normes et commentée pour les références les plus importantes (2-3 lignes de commentaire pour les lectures qui vous ont le plus servi).
+% Longueur de l’ordre de 15 à 20 pages pour un mémoire individuel, 25 à 30 pages en binôme ou trinôme. 
+% Police et espacement, pour toute partie dactylographiée: Times 12 pt, interligne 1,5.
+
+% la page de garde comporte les éléments et mentions suivants: 
+% le logo de l'ESPE de Créteil (obligatoire) + logo de votre université d'inscription (facultatif)
+% "MÉMOIRE de MASTER MEEF 2nd degré, parcours mathématiques. Année 2018-19"; 
+% Vos noms et prénoms; 
+% Le titre du mémoire; 
+% Le nom du ou des responsable(s) de suivi de mémoire; 
 \include{sections/titre}
+
+% Tous les mémoires doivent comporter un résumé de 200 à 250 mots et une liste de 5 mots-clés.
+% la deuxième page comporte les éléments et mentions suivants:
+% Un résumé de 300 à 500 mots. Il indique le contexte du mémoire, résume sa problématique et ses principales conclusions. (Contradiction avec le cadrage Mahara)
+% Les autorisations de diffusion, sous la forme suivante: 
+% J'autorise l'ESPE:
+% à exploiter le texte de mon mémoire dans la formation des étudiants MEEF  [OUI / NON] 
+% à communiquer mon nom et mes coordonnées à de futurs étudiants MEEF qui souhaiteraient me contacter au sujet de mon mémoire [OUI / NON]
 \include{sections/abstract}
+
+% La troisième page comporte le sommaire de la synthèse et inclut la liste des analyses détaillées.
 \include{sections/toc}
 
-% Insérer les sections ici
+% Le corps de la synthèse ne dépasse pas 30 pages et est organisé en parties et sous-parties lisibles.
 
+% De l’ordre de 1 à 2 pages 
+% Elle résume de manière succincte l'origine du questionnement initial et explique le titre du mémoire.
+% Elle introduit et justifie le plan du mémoire, en indiquant bien dans quelle partie la problématique est définie et justifiée. 
+% Elle explicite par ailleurs comment vous avez collaboré pour rédiger le mémoire à plusieurs (synthèse et analyses).
+% La rédaction permet d'identifier les parties rédigées collectivement ou individuellement; les choix que vous avez faits pour organiser entre vous la rédaction, sont indiqués en introduction.
 \include{sections/introduction}
+
+% La synthèse doit comprendre une partie de définition et une justification de la problématique, qui s'appuie sur une synthèse argumentée de ce qui vous y a conduit: vos lectures d'une part, et d'autre part certaines de vos observations ou expérimentations.
+% Elle décrit et justifie également le corpus permettant de répondre à la problématique ou de la faire évoluer: entretiens, analyses de documents (manuels, copies, …), observations, construction de séances / séquences, expérimentations en classe, notes de lecture.
 \include{sections/lectures}
 \include{sections/experimentations}
 \include{sections/parcours}
@@ -16,10 +54,26 @@
 \include{sections/evaluations_differenciees}
 \include{sections/supports}
 \include{sections/discussions}
+
+% La synthèse  aboutit à un résumé de vos principales conclusions et propose des perspectives pour développer le travail engagé, en termes de nouvelles lectures, de poursuite d'étude (formations, diplômes certifications envisagées..) ou de valorisation de votre travail.
 \include{sections/conclusion}
+
+% La bibliographie est placée à la fin de la synthèse.
+% Les références principales (celles qui ont le plus servi) doivent être commentées : à quoi elles ont été utiles, et pourquoi. S’il y a une note de lecture détaillée, y renvoyer.
+% La bibliographie est à éditer aux normes APA.
+% Évitez les URL sans indication aucune de l'auteur et du contenu. Pour plus de détail sur la manière de «bien référencer», voir le site «fralica» d’un collègue Belge, Philippe van Goethem : http://www.ecoles.cfwb.be/ismchatelet/fralica/importskynet/refer/theorie/annex/refbibl.htm 
+% Renvois à la bibliographie dans votre texte : dans le texte principal, renvoyez à toute référence sous la forme (Parzysz 2007, p.30) si vous utilisez un élément de la page 30.
 \include{sections/bibliographie}
 
-% Annexes
+% PARTIE ANALYSES DETAILLEES
+% Cette partie peut prendre la forme d’un ensemble de titre, avec des liens renvoyant à des documents en ligne.
+% Chaque analyse correspondant à chacune des études qui viennent éclairer la problématique décrite et justifiée dans la synthèse. Exemples : 
+% Notes de lecture, notes de synthèse bibliographique ; analyse de programmes, de documents d'accompagnement, de manuels, ou d'autres documents institutionnels 
+% Analyse d’expérimentations, analyses didactiques; analyses épistémologiques ou historiques ;
+% Analyses de copies d'élèves, d'entretiens ciblés, de questionnaires.
+% Elles sont placées de préférence après la synthèse, avec des titres clairs et lisibles qui sont repris dans le sommaire. Si le document est en ligne copiez le dans le mémoire ou bien indiquez le lien.
+% Si la taille et le format sont libres, l’important est que le document soit accessible et clairement référencé. Le titre doit indiquer la nature de l’étude, et le ou les auteurs être indiqués. 
+% Mettre des noms d’auteurs pour chaque analyse détaillée, et la date de rédaction.
 \begin{appendices}
     \include{annexes/tetraaide}
     \include{annexes/sujet_differencie}
