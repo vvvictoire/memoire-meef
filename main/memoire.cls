@@ -40,3 +40,5 @@
 \lfoot[]{}
 \cfoot[]{}
 \rfoot[]{}
+
+\newcommand{\remark}[1]{\textbf{\color{red}#1}}
