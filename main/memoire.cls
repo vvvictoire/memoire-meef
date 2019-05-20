@@ -41,4 +41,8 @@
 \cfoot[]{}
 \rfoot[]{}
 
+% Make flowcharts or mindmaps
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
 \newcommand{\remark}[1]{\textbf{\color{red}#1}}
